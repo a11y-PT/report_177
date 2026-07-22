@@ -1,10 +1,10 @@
 ---
-app: "nome_do_aplicacao_movel"          # Entre as aspas escreve o nome da app
-date: "31/12/1999"                    # Entre as aspas escreve a data de criação do 1º relatório. Os restantes estão no histórico
-uri: "https://url_loja_app"   # Entre as aspas escreve o endereço da app na loja
-a11y_statement: "https://dominio_sitio_web.pt/apps/acessibilidade-app1" # Entre as aspas escreve o URL da Declaração de Acessibilidade da App. A declaração da App está num URL público
-owner: "nome_do_proprietário"         # Entre as aspas escrever o nome do owner da app
-seal: "qual_o_selo"                          # Entre as aspas escreve Bronze, Prata ou Ouro
+app: "PRR - Bem Mer Ker App iOS"          # Entre as aspas escreve o nome da app
+date: "22/07/2026"                    # Entre as aspas escreve a data de criação do 1º relatório. Os restantes estão no histórico
+uri: "https://apps.apple.com/pt/app/bem-me-ker/id1288638710"   # Entre as aspas escreve o endereço da app na loja
+a11y_statement: "https://bemmeker-ipoporto.min-saude.pt/accessibility-declaration?tab=ios" # Entre as aspas escreve o URL da Declaração de Acessibilidade da App. A declaração da App está num URL público
+owner: "IPO Porto"         # Entre as aspas escrever o nome do owner da app
+seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
 validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
 status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---

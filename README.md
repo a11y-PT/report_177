@@ -1,5 +1,5 @@
 ---
-app: "PRR - Bem Mer Ker App iOS"          # Entre as aspas escreve o nome da app
+app: "Bem-Me-Ker"          # Entre as aspas escreve o nome da app
 date: "22/07/2026"                    # Entre as aspas escreve a data de criação do 1º relatório. Os restantes estão no histórico
 uri: "https://apps.apple.com/pt/app/bem-me-ker/id1288638710"   # Entre as aspas escreve o endereço da app na loja
 a11y_statement: "https://bemmeker-ipoporto.min-saude.pt/accessibility-declaration?tab=ios" # Entre as aspas escreve o URL da Declaração de Acessibilidade da App. A declaração da App está num URL público

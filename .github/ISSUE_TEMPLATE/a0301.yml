@@ -1,0 +1,42 @@
+name: "R 3.1 - 10 Aspetos App"
+description: "Indicações, para gestos invulgares"
+title: "R 3.1 - 10 Aspetos App (Indicações, para gestos invulgares)"
+labels:
+  - chk 10 app
+  - R 3.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 3.1 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/3.html#31-sempre-que-se-faz-uso-de-gestos-não-padronizados-são-fornecidas-indicações-no-ecrã-e-texto-acessível-que-dão-conta-da-sua-existência-e-de-como-se-usam)
+        ## 3.1 Sempre que se faz uso de gestos não padronizados, são fornecidas indicações no ecrã e texto acessível que dão conta da sua existência e de como se usam
+
+        Para cada gesto não padronizado (e.g. desenhar formas, tocar com vários dedos, deslizar em padrões específicos, etc) verifique se:
+
+        1. Existem instruções visuais no ecrã que explicam claramente os gestos.
+        2. Os descritivos em texto, equivalentes alternativos às instruções visuais sem texto, fornecem informação suficiente à execução do gesto.
+        3. O texto apresenta-se com contraste suficiente e tamanho de fonte adequado (10 ou 12 pt consoante se trate de informação secundária ou primária).
+
+        Passa, se:
+        - as condições #1, #2 e #3 são verdadeiras.
+
+        Nota: para gestos comuns disponíveis no sistema operativo este requisito é considerado Não Aplicável
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

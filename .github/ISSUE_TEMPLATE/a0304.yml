@@ -1,0 +1,44 @@
+name: "R 3.4 - 10 Aspetos App"
+description: "Indicações, para interações complexas"
+title: "R 3.4 - 10 Aspetos App (Indicações, para interações complexas)"
+labels:
+  - chk 10 app
+  - R 3.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 3.4 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/3.html#34-estão-disponíveis-instruções-claras-em-texto-para-interações-complexas)
+        ## 3.4 Estão disponíveis instruções claras, em texto, para interações complexas
+
+        Navegue pela aplicação e identifique todas as interações complexas (e.g., gestos múltiplos, arrastar e soltar, preenchimento de formulários com várias etapas, jogos ou atividades interativas que exigem várias ações, etc.) e verifique se:
+
+        1. Localiza instruções em texto que acompanham cada interação complexa (as instruções devem estar disponíveis na interface, próximas ou associadas às interações complexas).
+        2. Identificação clara sobre o que fazer em cada ponto de interação (são admissíveis tutoriais sem texto - imagem, vídeo - desde que acompanhados de alternativas em texto equivalentes.
+
+        Passa se:
+        - as condições #1 e #2 são verdadeiras.
+
+        Referências:
+        - [Técnica G184 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G184)
+        - [Critério de Sucesso 1.1.6 das MCAG](https://getevinced.github.io/mcag/#sensory-characteristics-in-content-or-instructions)
+        - [Critério de Sucesso 3.3.2 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

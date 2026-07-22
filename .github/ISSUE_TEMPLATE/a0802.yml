@@ -1,0 +1,47 @@
+name: "R 8.2 - 10 Aspetos App"
+description: "Gráficos e Multimédia, legendas"
+title: "R 8.2 - 10 Aspetos App (Gráficos e Multimédia, legendas)"
+labels:
+  - chk 10 app
+  - R 8.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 8.2 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/8.html#82-vídeos-contêm-legendas-sincronizadas-e-sem-erros)
+        ## 8.2 Vídeos contêm legendas sincronizadas e sem erros
+
+        1. Ative a funcionalidade legenda fechada (CC) do leitor de multimédia
+        2. Visualize o conteúdo multimédia sincronizado
+        3. Verifique que as legendas (de todos os diálogos e de todos os sons importantes) estão visíveis
+
+        Passa, se:
+        - a condição #3 é verdadeira
+
+        Nota 1: o apelo a "sem erros" significa que as legendas existentes não são baseadas apenas em ferramentas automáticas de transcrição existentes no leitor de multimédia.
+
+        Nota 2: preferencialmente a informação alternativa deve ser disponibilizada em formato de legendas sincronizadas com o vídeo. Caso não seja possível aceita-se a transcrição à parte do vídeo.
+
+        Referências:
+        - [Técnica G87 das WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/general/G87)
+        - [Critério de Sucesso 1.2.4 das MCAG](https://getevinced.github.io/mcag/#video-only-alternatives)
+        - [Critério de Sucesso 1.2.2 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-2-2)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

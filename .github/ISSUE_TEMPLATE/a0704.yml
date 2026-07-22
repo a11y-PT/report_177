@@ -1,0 +1,50 @@
+name: "R 7.4 - 10 Aspetos App"
+description: "Estrutura e Navegação, etiquetagem clara"
+title: "R 7.4 - 10 Aspetos App (Estrutura e Navegação, etiquetagem clara)"
+labels:
+  - chk 10 app
+  - R 7.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 7.4 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/7.html#74-menus-controlos-e-hiperligações-apresentam-se-sempre-claramente-etiquetados-independentemente-de-se-usarem-ou-não-tecnologias-de-apoio)
+        ## 7.4 Menus, controlos e hiperligações apresentam-se sempre claramente etiquetados independentemente de se usarem ou não tecnologias de apoio
+
+        Para cada componente da interface com uma etiqueta:
+
+        1. Identifique o propósito de cada componente da interface.
+        2. Verifique que a etiqueta torna o propósito da componente claro.
+
+        Passa, se:
+        - a condição #2 é verdadeira.
+
+        Nota 1: o "independentemente de se usarem ou não tecnologias de apoio" significa que a identificação das componentes não deve depender apenas da etiqueta visível. O "nome acessível" deve, no mínimo, conter o texto visível da etiqueta. Isso é importante por exemplo para que utilizadores que usem tecnologias de reconhecimento de voz para invocar comandos o possam fazer.
+
+        Nota 2: em síntese: (a) se o propósito do componente estiver expresso na etiqueta e (b) se a etiqueta estiver contida no 'accessible name', o requisito passa. Não é obrigatório que a etiqueta esteja sempre expressa em texto. Pode ser expressa num ícone, desde que compreensível dentro do contexto em que se encontra.
+
+        Referências:
+        - [Técnica G131 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G131)
+        - [Técnica ARIA14 das WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14)
+        - [Critério de Sucesso 3.2.3 das MCAG](https://getevinced.github.io/mcag/#heading-consistent-labeling)
+        - [Critério de Sucesso 3.2.4 das MCAG](https://getevinced.github.io/mcag/#heading-unique-labels)
+        - [Critério de Sucesso 2.4.6 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

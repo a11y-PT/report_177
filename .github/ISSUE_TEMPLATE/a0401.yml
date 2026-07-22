@@ -1,0 +1,44 @@
+name: "R 4.1 - 10 Aspetos App"
+description: "Entrada, teclado virtual adequado"
+title: "R 4.1 - 10 Aspetos App (Entrada, teclado virtual adequado)"
+labels:
+  - chk 10 app
+  - R 4.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 4.1 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/4.html#41-teclado-virtual-definido-para-o-tipo-de-entrada-de-dados)
+        ## 4.1 Teclado virtual definido para o tipo de entrada de dados
+
+        1. Liste os campos de edição para os seguintes tipos de entrada de dados: alfanumérico, numérico, email e URL.
+        2. Verifique se para a tecnologia selecionada (p.e. Android, iOS), o tipo de teclado utilizado é o mais adequado ao tipo de entrada de dados.
+
+        Passa, se:
+        - a condição #2 é verdadeira.
+
+        Nota: a diversidade de teclados disponíveis não é exatamente igual em todas as tecnologias (p.e. Android e iOS dispõem de teclados diferenciados). Consulte a referência abaixo.
+
+        Referências:
+        - [Verificação APPT-EM para o Critério de Sucesso 1.3.5 das WCAG 2.1](https://appt.org/en/guidelines/wcag/success-criterion-1-3-5#check). Para a análise é importante:
+          - Definir o [tipo de conteúdo](https://appt.org/en/guidelines/wcag/success-criterion-1-3-5#set-content-type)
+          - Definir o [tipo de teclado](https://appt.org/en/guidelines/wcag/success-criterion-1-3-5#set-keyboard-type)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

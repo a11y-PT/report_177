@@ -1,0 +1,61 @@
+name: "R 4.2 - 10 Aspetos App"
+description: "Entrada, simples e previsivel"
+title: "R 4.2 - 10 Aspetos App (Entrada, simples e previsivel)"
+labels:
+  - chk 10 app
+  - R 4.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 4.2 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/4.html#42-métodos-de-entrada-de-dados-simples-e-previsíveis)
+        ## 4.2 Métodos de entrada de dados simples e previsíveis
+
+        Situação A: alteração de contexto sem aviso prévio
+
+        1. Introduza dados em todos os campos da página começando a partir do topo.
+        2. Verifique se ao sair do último campo, esta saída provoca uma alteração automática imediata de contexto e que a interface não contém quaisquer informações que avisem previamente o utilizador de que tal vai acontecer.
+
+        Falha, se:
+        - a condição #2 é verdadeira. Se tal suceder, o conteúdo viola os requisitos de acessibilidade ([Critério de Sucesso 3.2.2 das WCAG 2.1](https://www.acessibilidade.gov.pt/wcag/#on-input))
+
+        Nota: atente na exceção prevista no texto do Critério de Sucesso 3.2.2 das WCAG 2.1. O texto do critério é o seguinte: 
+
+        > "A alteração das configurações de qualquer componente de interface de utilizador não causa automaticamente uma alteração de contexto a não ser que o utilizador seja avisado do comportamento antes de utilizar a componente."
+
+        Sítuação B: abertura de novas janelas sem aviso prévio
+
+        1. Identifique todos os formulários existentes na página.
+        2. Para cada botão de rádio, caixa de verificação ou item de lista de seleção, verifique se ao selecionar quaisquer um deles provoca o aparecimento de um novo ecrã.
+        3. Para cada ecrã resultante do passo #2, verifique se o utilizador é avisado antecipadamente.
+
+        Passa, se:
+        - a condição #3 é verdadeira.
+
+        Nota 1: os métodos de entrada que não permitam entrada de dados de forma redundante via rato e teclado consideram-se não conformes.
+
+        Nota 2: os métodos de entrada invulgares, criados para uma aplicação em concreto, serão considerados complexos quando obrigarem a um número elevado de teclas para concluir um processo. 
+
+        Referências:
+        - [Verificação APPT-EM para o Critério de Sucasso 3.2.2 das WCAG 2.1](https://appt.org/en/guidelines/wcag/success-criterion-3-2-2#check)
+        - [Técnica F36 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F36.html)
+        - [Técnica F37 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F37.html)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

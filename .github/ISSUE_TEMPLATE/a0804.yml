@@ -1,0 +1,43 @@
+name: "R 8.4 - 10 Aspetos App"
+description: "Gráficos e Multimédia, imagens de texto"
+title: "R 8.4 - 10 Aspetos App (Gráficos e Multimédia, imagens de texto)"
+labels:
+  - chk 10 app
+  - R 8.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 8.4 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/8.html#84-textos-e-não-imagens-de-texto-são-usados-sempre-que-possível)
+        ## 8.4 Textos e não imagens de texto são usados sempre que possível
+
+        1. Verifique se existem imagens de texto
+        2. Verifique se as imagens de texto não podem ser apresentadas em texto puro com estilo via CSS 
+
+        Passa, se:
+        - a condição #2 é verdadeira.
+
+        Nota: A [Técnica C30 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/css/C30) abre a possibilidade de, caso não seja possível ou desejável remover a apresentação que faz uso das imagens de texto, disponibilizar um mecanismo que permita duas visualizações: com imagens de texto e sem imagens de texto. Esta última com estilo totalmente controlado por CSS. Caso este mecanismo exista na página, ele deve ser considerado como válido para satisfação do requisito.
+
+        Referências:
+        - [Técnica C30 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/css/C30)
+        - [Critério de Sucesso 1.4.5 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-5)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

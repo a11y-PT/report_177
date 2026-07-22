@@ -1,0 +1,42 @@
+name: "R 3.3 - 10 Aspetos App"
+description: "Indicações, grupos de interação"
+title: "R 3.3 - 10 Aspetos App (Indicações, grupos de interação)"
+labels:
+  - chk 10 app
+  - R 3.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 3.3 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/3.html#33-elementos-ativáveis-estão-agrupados-intuitivamente)
+        ## 3.3 Elementos ativáveis estão agrupados intuitivamente
+
+        1. Verifique se os links visualmente agrupados e que constituem uma secção da página estão envelopados num elemento nav.
+
+        Passa, se:
+        - a condição #1 é verdadeira.
+
+        Nota: é importante atribuir um rótulo ao envelope de links que constitui o elemento de navegação (nav). E.g. menu principal, menu secundário, links relacionados, links da categoria X, etc.
+
+        Referências:
+        - [Técnica H97 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/html/H97)
+        - [Critério de Sucesso 1.3.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

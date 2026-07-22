@@ -1,0 +1,45 @@
+name: "R 5.1 - 10 Aspetos App"
+description: "Ampliar e Redimensionar, com o sistema operativo"
+title: "R 5.1 - 10 Aspetos App (Ampliar e Redimensionar, com o sistema operativo)"
+labels:
+  - chk 10 app
+  - R 5.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 5.1 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/5.html#51---usando-a-funcionalidade-de-ampliação-de-texto-do-sistema-operativo-no-mínimo-é-possível-aumentar-o-tamanho-do-texto-em-200-sem-que-se-perca-conteúdo-ou-funcionalidade)
+        ## 5.1 - Usando a funcionalidade de ampliação de texto do sistema operativo, no mínimo, é possível aumentar o tamanho do texto em 200% sem que se perca conteúdo ou funcionalidade
+
+        1. Exiba o conteúdo num agente de utilizador (browser telemóvel, aplicação telemóvel)
+        2. Amplie o conteúdo em 200%
+        3. Verifique se todos os conteúdos e funcionalidades estão disponíveis
+
+        Passa, se:
+        - a condição #3 é verdadeira.
+
+        Nota: o redimensionamento do texto até aos 200% tem de se operacionalizar sem que se perca conteúdo ou funcionalidade. Deve-se evitar o uso de reticências (...) como forma de compactar o texto.
+
+        Referências:
+        - [Técnica G142 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G142)
+        - [Critério de Sucesso 3.3.2 das MCAG](https://getevinced.github.io/mcag/#scaled-text-legibility)
+        - [Critério de Sucesso 1.4.4 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-4)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

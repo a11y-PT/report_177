@@ -1,0 +1,46 @@
+name: "R 9.3 - 10 Aspetos App"
+description: "Cor, componentes"
+title: "R 9.3 - 10 Aspetos App (Cor, componentes)"
+labels:
+  - chk 10 app
+  - R 9.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 9.3 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/9.html#93-as-componentes-de-interface-e-as-componentes-gráficas-apresentam-se-com-um-rácio-de-contraste-de-no-mínimo-3-para-1)
+        ## 9.3 As componentes de interface e as componentes gráficas apresentam-se com um rácio de contraste de, no mínimo, 3 para 1
+
+        Para botões, ícones, caixa de edição e gráficos
+
+        1. Recolha a cor do fundo ou do contorno do botão, do ícone, da caixa de edição ou do gráfico.
+        2. Recolha a cor do fundo sobre o qual o elemento se encontra
+        3. Coloque os valores de 1 e 2 numa calculadora de contrastes
+        4. Verifique que o rácio de contraste é superior ou igual a 3 para 1
+
+        Passa, se:
+        - a condição #4 é verdadeira.
+
+        Referências:
+        - [Critério de Sucesso 1.4.2 das MCAG](https://getevinced.github.io/mcag/#essential-elements-color-contrast)
+        - [Técnica 207 das WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/general/G207.html)
+        - [Critério de Sucesso 1.4.11 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-11)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

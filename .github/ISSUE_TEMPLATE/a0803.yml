@@ -1,0 +1,47 @@
+name: "R 8.3 - 10 Aspetos App"
+description: "Gráficos e Multimédia, audiodescrição"
+title: "R 8.3 - 10 Aspetos App (Gráficos e Multimédia, audiodescrição)"
+labels:
+  - chk 10 app
+  - R 8.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 8.3 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/8.html#83-vídeos-contêm-se-necessário-áudiodescrição)
+        ## 8.3 Vídeos contêm, se necessário, áudiodescrição
+
+        1. Abra a versão do vídeo que contém a audiodescrição
+        2. Oiça o vídeo
+        3. Verifique se nos intervalos dos diálogos são fornecidas informações sobre o conteúdo visual
+        4. Se a versão ou versões alternativas estiverem numa página à parte, verifique se existem links que permitam ao utilizador chegar às várias versões 
+
+        Passa, se:
+        - a condição #3 e #4 são verdadeiras.
+
+        Nota: se o vídeo passar uma quantidade significativa de informação apenas através do conteúdo visual e o mesmo não tiver audiodescrição, não passará este critério. Entende-se por quantidade significativa mais de 50% das mensagens transmitidas pelo vídeo. 
+
+        Referências:
+        - [Técnica G173 das WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/general/G173)
+        - [Critério de Sucesso 1.2.4 das MCAG](https://getevinced.github.io/mcag/#video-only-alternatives)
+        - [Critério de Sucesso 1.2.3 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3)
+        - [Critério de Sucesso 1.2.5 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-2-5)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

@@ -1,0 +1,17 @@
+{
+  "chk 10 app": {
+    "field": "Aspetos Chk 10 app",
+    "options": {
+      "1": "1 - Ecrã pequeno",
+      "2": "2 - Gestos",
+      "3": "3 - Indicações",
+      "4": "4 - Entrada",
+      "5": "5 - Ampliar e Redimensionar",
+      "6": "6 - Orientação e layout",
+      "7": "7 - Estrutura e Navegação",
+      "8": "8 - Gráficos e Multimédia",
+      "9": "9 - Cor",
+      "10": "10 - Idioma"
+    }
+  }
+}

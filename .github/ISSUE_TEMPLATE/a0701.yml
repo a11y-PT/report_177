@@ -1,0 +1,42 @@
+name: "R 7.1 - 10 Aspetos App"
+description: "Estrutura e Navegação, títulos descritivos"
+title: "R 7.1 - 10 Aspetos App (Estrutura e Navegação, títulos descritivos)"
+labels:
+  - chk 10 app
+  - R 7.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 7.1 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/7.html#71-as-páginas-têm-títulos-descritivos)
+        ## 7.1 As páginas têm títulos descritivos
+
+        1. Determine quais são os títulos que existem na página Web / ecrã.
+        2. Verifique que cada título identifica o propósito da respetiva secção do conteúdo. No caso do título principal (H1) verifique se o mesmo identifica corretamente o propósito da página.
+
+        Passa, se:
+        - a condição #2 é verdadeira.
+
+        Referências:
+        - [Técnica G130 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G130)
+        - [Critério de Sucesso 3.1.6 das MCAG](https://getevinced.github.io/mcag/#section-headings)
+        - [Critério de Sucesso 2.4.6 das MCAG](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

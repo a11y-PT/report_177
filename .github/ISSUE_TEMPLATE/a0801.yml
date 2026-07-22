@@ -1,0 +1,57 @@
+name: "R 8.1 - 10 Aspetos App"
+description: "Gráficos e Multimédia, alternativo em texto"
+title: "R 8.1 - 10 Aspetos App (Gráficos e Multimédia, alternativo em texto)"
+labels:
+  - chk 10 app
+  - R 8.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 8.1 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/8.html#81-conteúdo-gráfico-tem-um-alternativo-em-texto-acessível)
+        ## 8.1 Conteúdo gráfico tem um alternativo em texto acessível
+
+        Situação A. Para situações em que uma descrição curta (cerca de 100 caracteres) pode servir o mesmo propósito e apresentar a mesma informação existente no conteúdo não-texto.
+
+        1. Remova, esconda, ou mascare o conteúdo não-texto
+        2. Substitua-o pelo texto alternativo disponibilizado
+        3. Verifique que nada é perdido (o propósito do conteúdo não-texto é satisfeito pelo alternativo em texto)
+        4. Se o conteúdo não-texto contém palavras que são importantes à compreensão do conteúdo, as palavras também fazem parte do alternativo em texto
+
+        Passa, se:
+        - a condição #3 é verdadeira.
+        - se o conteúdo não-texto contém palavras que são importantes à compreensão do conteúdo, então a condição #4 tem de ser igualmente verdadeira.
+
+        Situação B. Para situações em que uma descrição curta não pode servir o mesmo propósito e apresentar a mesma informação existente no conteúdo não-texto (e.g., um gráfico estatístico ou um diagrama)
+
+        1. Remova, esconda ou mascare o conteúdo não-texto
+        2. Substitua-o pela descrição longa disponibilizada
+        3. Verifique que a descrição longa transmite a mesma informação transmitida pelo conteúdo não texto.
+
+        Passa, se:
+        - a condição #3 é verdadeira.
+
+        Referências:
+        - [Técnica G94 das WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/general/G94)
+        - [Técnica G92 das WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/general/G94)
+        - [Critério de Sucesso 1.2.1 das MCAG](https://getevinced.github.io/mcag/#static-media-alternatives)
+        - [Critério de Sucesso 1.1.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

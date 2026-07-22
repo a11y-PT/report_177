@@ -1,0 +1,46 @@
+name: "R 2.1 - 10 Aspetos App"
+description: "Gestos, controlos de toque"
+title: "R 2.1 - 10 Aspetos App (Gestos, controlos de toque)"
+labels:
+  - chk 10 app
+  - R 2.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 2.1 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/2.html#21-controlos-de-toque-são-ativados-após-deixar-de-exercer-pressão-up-event-e-não-após-o-toque-inicial-down-event)
+        ## 2.1 Controlos de toque são ativados após deixar de exercer pressão (up event) e não após o toque inicial (down event)
+
+        Abra o conteúdo num dispositivo que permita o controlo do ponteiro através de dispositivos apontadores (rato, ecrã sensível ao toque, caneta) e para todos os controles disponíveis (botões, links, widgets):
+
+        1. A ativação do controlo é despoletada pelo uso do evento ascendente (up-event) e não pelo uso exclusivo do evento descendente (down-event).
+
+        Passa, se:
+          - a condição #1 é verdadeira.
+
+        Nota: O uso do evento ascendente (up-event) corresponde por exemplo a pressionar sem libertar o botão do rato ou colocar um dedo/caneta no ecrã sem o levantar. O uso do evento descendente (down-event) corresponde por exemplo a libertar o botão do rato ou a levantar o dedo/caneta do ecrã.
+
+        Referências:
+
+        - [Técnica F101 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F101)
+        - [Critério de Sucesso 2.1.4 das MCAG](https://getevinced.github.io/mcag/#single-touch-event)
+        - [Critério de Sucesso 2.5.2 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-5-2)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

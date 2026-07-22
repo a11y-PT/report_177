@@ -1,0 +1,44 @@
+name: "R 7.2 - 10 Aspetos App"
+description: "Estrutura e Navegação, hierarquia de títulos"
+title: "R 7.2 - 10 Aspetos App (Estrutura e Navegação, hierarquia de títulos)"
+labels:
+  - chk 10 app
+  - R 7.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 7.2 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/7.html#72-os-títulos-encontram-se-hierarquicamente-aninhados-numa-ordem-de-leitura-apropriada-e-ao-alcance-das-tecnologias-de-apoio)
+        ## 7.2 Os títulos encontram-se hierarquicamente aninhados, numa ordem de leitura apropriada e ao alcance das tecnologias de apoio
+
+        1. Verifique que é usada marcação semântica sempre que o conteúdo é um título e, sempre que a tecnologia de marcação o permita, que a marcação indica de forma apropriada o nível do título (2 para secção, 3 para subsecção, ...).
+        2. Verifique que a marcação do título não está a ser usada para conteúdo que não é um título.
+
+        Passa, se:
+        - as condições #1 e #2 são verdadeiras.
+
+        Nota: dependendo da tecnologia utilizada para a construção da aplicação poderá não ser possível identificar o nível de título - geralmente de 1 a 6, como o que encontra disponível no HTML. Nestes casos, no mínimo, deve ser observado se a secção está identificada com um título. Há tecnologias de criação de conteúdos que só permitem identificar o Heading, mas não o seu nível. O procedimento de teste existente no [Critério de Sucesso 3.1.6 das MCAG](https://getevinced.github.io/mcag/#section-headings), pensado especificamente para aplicações móveis, induz a isto mesmo.
+
+        Referências:
+        - [Técnica H42 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/html/H42)
+        - [Critério de Sucesso 3.1.6 das MCAG](https://getevinced.github.io/mcag/#section-headings)
+        - [Critério de Sucesso 1.3.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

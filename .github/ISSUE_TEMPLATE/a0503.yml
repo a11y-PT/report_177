@@ -1,0 +1,47 @@
+name: "R 5.3 - 10 Aspetos App"
+description: "Ampliar e Redimensionar, com a interface"
+title: "R 5.3 - 10 Aspetos App (Ampliar e Redimensionar, com a interface)"
+labels:
+  - chk 10 app
+  - R 5.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 5.3 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/5.html#53---usando-mecanismos-de-ampliação-existentes-na-interface-da-página-webapp-no-mínimo-é-possível-aumentar-o-texto-em-200-sem-que-se-perca-conteúdo-ou-funcionalidade)
+        ## 5.3 - Usando mecanismos de ampliação existentes na interface da página Web/app, no mínimo, é possível aumentar o texto em 200% sem que se perca conteúdo ou funcionalidade
+
+        1. Ajuste o tamanho da _viewport_ para 375 x 667 (ref. iPhone SE) ou superior
+        2. Incremente o tamanho do texto e verifique se observa de facto o tamanho do texto a aumentar.
+        3. Verifique que o tamanho do texto pode ser incrementado até 200% do tamanho original.
+        4. Verifique que depois de aumentar o tamanho do texto para 200% do tamanho original, não existe perda de conteúdo ou funcionalidade (e.g. nenhuma parte do texto é cortada, não há caixas de texto sobrepostas, não há controlos escondidos ou separados dos seus rótulos, etc.).
+        5. Reduza o tamanho do texto para o seu valor por defeito e verifique se observa que ele de facto regressou ao tamanho com que se apresenta por defeito.
+
+        Passa, se:
+        - as condições #2, #3, #4 e #5 são verdadeiras.
+
+        Nota: o redimensionamento do texto até aos 200% tem de se operacionalizar sem que se perca conteúdo ou funcionalidade. Deve-se evitar o uso de reticências (...) como forma de compactar o texto.
+
+        Referências:
+        - [Técnica G178 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G178)
+        - [Critério de Sucesso 3.3.2 das MCAG](https://getevinced.github.io/mcag/#scaled-text-legibility)
+        - [Critério de Sucesso 1.4.4 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-4)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

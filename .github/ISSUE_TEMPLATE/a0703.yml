@@ -1,0 +1,41 @@
+name: "R 7.3 - 10 Aspetos App"
+description: "Estrutura e Navegação, toque e teclado"
+title: "R 7.3 - 10 Aspetos App (Estrutura e Navegação, toque e teclado)"
+labels:
+  - chk 10 app
+  - R 7.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 7.3 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/7.html#73-menus-controlos-e-hiperligações-funcionam-quer-através-do-toque-no-ecrã-quer-através-do-teclado)
+        ## 7.3 Menus, controlos e hiperligações funcionam quer através do toque no ecrã quer através do teclado
+
+        1. Identifique todas as funcionalidades (opções e subopções de menus, controlos de formulários, acordeons, carrosséis, sliders, botões, hiperligações, ...) existentes no conteúdo.
+        2. Verifique que todas as funcionalidades podem ser acedidas usando apenas o teclado.
+
+        Passa, se:
+        - a condição #2 é verdadeira.
+
+        Referências:
+        - [Técnica G202 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
+        - [Critério de Sucesso 2.1.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1).
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

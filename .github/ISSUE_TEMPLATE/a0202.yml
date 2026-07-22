@@ -1,0 +1,47 @@
+name: "R 2.2 - 10 Aspetos App"
+description: "Gestos, com o dispositivo"
+title: "R 2.2 - 10 Aspetos App (Gestos, com o dispositivo)"
+labels:
+  - chk 10 app
+  - R 2.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 2.2 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/2.html#22-funcionalidades-ativadas-através-do-movimento-inclinação-ou-do-sacudir-físico-do-dispositivo-podem-ser-desativadas)
+        ## 2.2 Funcionalidades ativadas através do movimento, inclinação, ou do sacudir físico do dispositivo podem ser desativadas
+
+        Para cada função que é acionada por um sensor de movimento:
+
+        1. Verifique se o uso de um sensor de movimento é fundamental ou necessário para tornar a função acessível.
+        2. Verifique se há uma configuração que permita ao utilizador desativar a detecção de movimento.
+
+        Passa, se:
+        - as condições #1 e #2 são verdadeiras
+
+        Nota 1: "inclinar" e "sacudir" o dispositivo é também movimento
+
+        Nota 2: o texto de definição do Critério de Sucesso 2.5.1 das WCAG 2.1 diz: "Funcionalidade que possa ser operada pelo movimento do dispositivo ou por movimento do utilizador também pode ser operada através de componentes da interface de utilizador e a resposta ao movimento pode ser desativada de forma a prevenir ativações acidentais."
+
+        Referências:
+        - [Técnica F106 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F106)
+        - [Critério de Sucesso 2.5.4 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-5-4)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

@@ -1,0 +1,47 @@
+name: "R 4.3 - 10 Aspetos App"
+description: "Entrada, suporte a teclado"
+title: "R 4.3 - 10 Aspetos App (Entrada, suporte a teclado)"
+labels:
+  - chk 10 app
+  - R 4.3
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 4.3 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/4.html#43-suporte-a-teclados-e-outros-dispositivos-de-entrada-alternativos-ao-ecrã-sensível-ao-toque)
+        ## 4.3 Suporte a teclados e outros dispositivos de entrada, alternativos ao ecrã sensível ao toque
+
+        1. Identifique todas as funcionalidades.
+        2. Verifique que todas as funcionalidades podem ser acedidas usando apenas o teclado ou teclado presente na interface.
+        3. Verifique que quando o foco é colocado sobre cada elemento, o mesmo permanece lá até que o utilizador o movimente.
+
+        Passa, se:
+        - as condições #2 e #3 são verdadeiras.
+
+        Nota: ligue ao seu dispositivo móvel um teclado, um teclado de conceitos ou um manipulo e um software de varrimento para efetuar os testes. Também pode usar um leitor de ecrã e testar com as diferentes modalidades de navegação disponíveis neste tipo de software.
+
+        Referências:
+        - [Técnica G202 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
+        - [Técnica F55 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F55)
+        - [Técnica F98 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F98)
+        - [Critério de Sucesso 2.2.1 das MCAG](https://getevinced.github.io/mcag/#external-aids-devices)
+        - [Critério de Sucesso 2.1.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

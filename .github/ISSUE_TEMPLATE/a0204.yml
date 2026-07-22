@@ -1,0 +1,58 @@
+name: "R 2.4 - 10 Aspetos App"
+description: "Gestos, multiponto"
+title: "R 2.4 - 10 Aspetos App (Gestos, multiponto)"
+labels:
+  - chk 10 app
+  - R 2.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 2.4 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/2.html#24-gestos-multiponto-uso-simultâneo-de-vários-dedos-ou-gestos-baseados-no-desenho-de-uma-trajetória-estão-também-disponíveis-com-gestos-que-fazem-uso-do-toque-de-um-só-ponto-ou-que-não-obrigam-a-desenhar-uma-trajetória)
+        ## 2.4 Gestos Multiponto (uso simultâneo de vários dedos) ou gestos baseados no desenho de uma trajetória estão também disponíveis com gestos que fazem uso do toque de um só ponto ou que não obrigam a desenhar uma trajetória
+
+        **Situação A - controlos deslizantes**
+
+        Para controlos do tipo sliders (controlos deslizantes) que respondem a gestos baseados no desenho de trajetórias:
+
+        1. Verifique se existem controlos, sobre ou adjacentes aos controlos deslizantes, operáveis apenas com um ponteiro que permita selecionar os pedaços de conteúdo adjacentes.
+
+        Passa, se:
+        - a condição #1 é verdadeira.
+
+        Referências:
+        - [Técnica G215 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G215)
+        - [Critério de Sucesso 2.1.2 das MCAG](https://getevinced.github.io/mcag/#simplified-gestures)
+        - [Critério de Sucesso 2.5.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-5-1)
+
+        **Situação B - controlos multiponto**
+
+        Para controlos do tipo multponto:
+
+        1. Verifique se existem controlos que usem um único ponto de ação alternativos aos controlos multiponto. 
+
+        Passa, se:
+        - a condição #1 é verdadeira.
+
+        Referências:
+        - [Critério de Sucesso 2.1.2 das MCAG](https://getevinced.github.io/mcag/#simplified-gestures)
+        - [Critério de Sucesso 2.5.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-2-5-1)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

@@ -1,0 +1,46 @@
+name: "R 9.1 - 10 Aspetos App"
+description: "Cor, texto normal"
+title: "R 9.1 - 10 Aspetos App (Cor, texto normal)"
+labels:
+  - chk 10 app
+  - R 9.1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 9.1 - 1o aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/9.html#91-o-texto-normal-apresenta-se-com-um-rácio-de-contraste-de-no-mínimo-45-para-1)
+        ## 9.1 O texto normal apresenta-se com um rácio de contraste de, no mínimo, 4.5 para 1
+
+        Para tamanhos de letra inferiores a 18pt:
+
+        1. Recolha a cor da letra
+        2. Recolha a cor do fundo sobre o qual a letra se encontra
+        3. Coloque os valores de 1 e 2 numa calculadora de contrastes
+        4. Verifique que o rácio de contraste é superior ou igual a 4.5 para 1
+
+        Passa, se:
+        - a condição #4 é verdadeira.
+
+        Referências:
+        - [Técnica G18 das WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/general/G18)
+        - [Critério de Sucesso 1.4.1 das MCAG](https://getevinced.github.io/mcag/#text-color-contrast)
+        - [Critério de Sucesso 1.4.3 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-3)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

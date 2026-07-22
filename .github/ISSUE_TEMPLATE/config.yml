@@ -1,0 +1,138 @@
+blank_issues_enabled: false
+
+issue_templates:
+  - name: R 1.1 - 10 Aspetos App
+    description: requisito 1.1, 10 aspetos app
+    file: a0101.yml
+
+  - name: R 1.2 - 10 Aspetos App
+    description: requisito 1.2, 10 aspetos app
+    file: a0102.yml
+
+  - name: R 1.3 - 10 Aspetos App
+    description: requisito 1.3, 10 aspetos app
+    file: a0103.yml
+
+  - name: R 2.1 - 10 Aspetos App
+    description: requisito 2.1, 10 aspetos app
+    file: a0201.yml
+
+  - name: R 2.2 - 10 Aspetos App
+    description: requisito 2.2, 10 aspetos app
+    file: a0202.yml
+
+  - name: R 2.3 - 10 Aspetos App
+    description: requisito 2.3, 10 aspetos app
+    file: a0203.yml
+
+  - name: R 2.4 - 10 Aspetos App
+    description: requisito 2.4, 10 aspetos app
+    file: a0204.yml
+
+
+  - name: R 3.1 - 10 Aspetos App
+    description: requisito 3.1, 10 aspetos app
+    file: a0301.yml
+
+  - name: R 3.2 - 10 Aspetos App
+    description: requisito 3.2, 10 aspetos app
+    file: a0302.yml
+
+  - name: R 3.3 - 10 Aspetos App
+    description: requisito 3.3, 10 aspetos app
+    file: a0303.yml
+
+  - name: R 3.4 - 10 Aspetos App
+    description: requisito 3.4, 10 aspetos app
+    file: a0304.yml
+
+
+  - name: R 4.1 - 10 Aspetos App
+    description: requisito 4.1, 10 aspetos app
+    file: a0401.yml
+
+  - name: R 4.2 - 10 Aspetos App
+    description: requisito 4.2, 10 aspetos app
+    file: a0402.yml
+
+  - name: R 4.3 - 10 Aspetos App
+    description: requisito 4.3, 10 aspetos app
+    file: a0403.
+
+  - name: R 5.1 - 10 Aspetos App
+    description: requisito 5.1, 10 aspetos app
+    file: a0501.yml
+
+  - name: R 5.2 - 10 Aspetos App
+    description: requisito 5.2, 10 aspetos app
+    file: a0502.yml
+
+  - name: R 5.3 - 10 Aspetos App
+    description: requisito 5.3, 10 aspetos app
+    file: a0503.yml
+
+  - name: R 5.4 - 10 Aspetos App
+    description: requisito 5.4, 10 aspetos app
+    file: a0504.yml
+
+
+  - name: R 6.1 - 10 Aspetos App
+    description: requisito 6.1, 10 aspetos app
+    file: a0601.
+
+  - name: R 6.2 - 10 Aspetos App
+    description: requisito 6.2, 10 aspetos app
+    file: a0602.yml
+
+  - name: R 7.1 - 10 Aspetos App
+    description: requisito 7.1, 10 aspetos app
+    file: a0701.yml
+
+  - name: R 7.2 - 10 Aspetos App
+    description: requisito 7.2, 10 aspetos app
+    file: a0702.yml
+
+  - name: R 7.3 - 10 Aspetos App
+    description: requisito 7.3, 10 aspetos app
+    file: a0703.yml
+
+  - name: R 7.4 - 10 Aspetos App
+    description: requisito 7.4, 10 aspetos app
+    file: a0704.yml
+
+
+  - name: R 8.1 - 10 Aspetos App
+    description: requisito 8.1, 10 aspetos app
+    file: a0801.yml
+
+  - name: R 8.2 - 10 Aspetos App
+    description: requisito 8.2, 10 aspetos app
+    file: a0802.yml
+
+  - name: R 8.3 - 10 Aspetos App
+    description: requisito 8.3, 10 aspetos app
+    file: a0803.yml
+
+  - name: R 8.4 - 10 Aspetos App
+    description: requisito 8.4, 10 aspetos app
+    file: a0804.yml
+
+  - name: R 9.1 - 10 Aspetos App
+    description: requisito 9.1, 10 aspetos app
+    file: a0901.yml
+
+  - name: R 9.2 - 10 Aspetos App
+    description: requisito 9.2, 10 aspetos app
+    file: a0902.yml
+
+  - name: R 9.3 - 10 Aspetos App
+    description: requisito 9.3, 10 aspetos app
+    file: a0903.yml
+
+  - name: R 9.4 - 10 Aspetos App
+    description: requisito 9.4, 10 aspetos app
+    file: a0904.yml
+
+  - name: R 10.1 - 10 Aspetos App
+    description: requisito 10.1, 10 aspetos app
+    file: a1001.yml

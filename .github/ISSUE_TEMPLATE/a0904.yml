@@ -1,0 +1,51 @@
+name: "R 9.4 - 10 Aspetos App"
+description: "Cor, diferenciar só pela cor"
+title: "R 9.4 - 10 Aspetos App (Cor, diferenciar só pela cor)"
+labels:
+  - chk 10 app
+  - R 9.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 9.4 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/9.html#94-informação-ou-significado-por-exemplo-um-erro-não-é-veiculado-apenas-pela-cor)
+        ## 9.4 Informação ou significado (por exemplo um erro) não é veiculado apenas pela cor
+
+        Para cada item onde a diferença de cor é usada para transmitir informação:
+
+        1. Verifique que a informação transmitida se encontra igualmente disponível em texto e que esse texto não se apresenta de forma condicional.
+
+        Passa, se:
+        - a condição #1 é verdadeira.
+
+        Para todos os campos obrigatórios ou mensagens de erro existentes na página Web identificáveis pelas diferenças de cor:
+
+        1. Verifique que existe uma forma não baseada na cor que permite identificar os campos obrigatórios ou as mensagens de erro.
+
+        Passa, se:
+        - a condição #1 é verdadeira.
+
+        Referências:
+        - [Técnica G14 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G14.html)
+        - [Técnica F81 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F81)
+        - [Critério de Sucesso 1.4.4 das MCAG](https://getevinced.github.io/mcag/#distinguished-by-color)
+        - [Critério de Sucesso 1.4.1 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

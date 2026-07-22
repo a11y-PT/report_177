@@ -1,0 +1,45 @@
+name: "R 5.4 - 10 Aspetos App"
+description: "Ampliar e Redimensionar, formulários"
+title: "R 5.4 - 10 Aspetos App (Ampliar e Redimensionar, formulários)"
+labels:
+  - chk 10 app
+  - R 5.4
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 5.4 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/5.html#54---usando-as-3-funcionalidades-de-ampliação-anteriores-verifique-se-o-texto-dos-controlos-de-formulário-eg-campos-de-edição-botões-pode-ser-ampliado-até-aos-200)
+        ## 5.4 - Usando as 3 funcionalidades de ampliação anteriores, verifique se o texto dos controlos de formulário (e.g. campos de edição, botões) pode ser ampliado até aos 200%
+
+        1. Introduza algum texto nos campos de edição de um formulário.
+        2. Aumente o tamanho do texto do conteúdo até aos 200%.
+        3. Verifique que o texto existente nos campos de edição aumentou até aos 200%.
+
+        Falha, se:
+        - a condição #3 é falsa, a condição de falha aplica-se e o conteúdo falha este Critério de Sucesso.
+
+        Nota: o redimensionamento do texto até aos 200% tem de se operacionalizar sem perda de informação ou funcionalidade. Deve-se evitar o uso de reticências (...) como forma de compactar o texto.
+
+        Referências:
+        - [Técnica F80 da WAI para WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/failures/F80)
+        - [Critério de Sucesso 3.3.2 das MCAG](https://getevinced.github.io/mcag/#scaled-text-legibility)
+        - [Critério de Sucesso 1.4.4 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-1-4-4)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

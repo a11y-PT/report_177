@@ -1,0 +1,54 @@
+name: "R 6.2 - 10 Aspetos App"
+description: "Orientação e layout, consistente e previsível"
+title: "R 6.2 - 10 Aspetos App (Orientação e layout, consistente e previsível)"
+labels:
+  - chk 10 app
+  - R 6.2
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [R 6.2 - 10 aspetos app](https://amagovpt.github.io/kit-selo/checklists/mobile/10aspetos/6.html#62-o-layout-da-página-é-consistente-e-previsível)
+        ## 6.2 O layout da página é consistente e previsível
+
+        Situação A. Ordem consistente das componentes:
+
+        1. Tendo em conta um conjunto de páginas Web / ecrãs, liste as componentes que se encontram repetidas em cada página.
+        2. Para cada componente, verifique que a ordem como se apresenta é sempre a mesma nas diversas páginas onde surge.
+        3. Para cada componente de navegação (links ou referências programáticas), verifique que a ordem relativa como se apresentam é sempre a mesma.
+
+        Passa, se:
+        - a condição #2 e #3 são verdadeiras.
+
+        Situação B. Identificação consistente das componentes:
+
+        1. Verifique que a cada componente está associada um texto que a identifica (i.e., etiqueta, nome, ou alternativo em texto).
+        2. Verifique que as componentes com as mesmas funções têm um texto associado idêntico.
+
+        Passa, se:
+        - as condições #1 e #2 são verdadeiras.
+
+        Referências:
+        - [Técnica G61 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G61)
+        - [Técnica G197 das WCAG 2.1](https://www.w3.org/WAI/WCAG22/Techniques/general/G197)
+        - [Critério de Sucesso 3.4.3 das MCAG](https://getevinced.github.io/mcag/#consistent-navigation)
+        - [Critério de Sucesso 3.2.3 da APPT](https://appt.org/en/guidelines/wcag/success-criterion-3-2-3)
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Indica as evidências encontradas
+      placeholder: Descreve aqui as evidências...
+    validations:
+      required: false
+
+  - type: textarea
+    id: recomendacoes
+    attributes:
+      label: Recomendações
+      description: Sugere melhorias ou correções
+      placeholder: Descreve aqui as recomendações...
+    validations:
+      required: false

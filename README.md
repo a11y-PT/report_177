@@ -6,7 +6,7 @@ a11y_statement: "https://bemmeker-ipoporto.min-saude.pt/accessibility-declaratio
 owner: "IPO Porto"         # Entre as aspas escrever o nome do owner da app
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
 validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
 # Relatório de auditoria
@@ -24,12 +24,12 @@ Aplicação móvel: {{ page.app }}
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório {{ page.app }}](report.html)
+Consulte aqui a última atualização: [Relatório App Bem-Me-Ker iOS](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="ddmmaaaa_report.html">(dd/mm/aaaa). Relatório {{ page.app }}</a></li>
+    <li><a href="17082026_report.html">(17/08/2026). Relatório App Bem-Me-Ker iOS</a></li>
   </ul>
 </details>
 

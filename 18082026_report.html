@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatório Relatório de auditoria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .skip-link { position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100; transition: top 0.3s ease; }
+    .skip-link:focus { top: 0; }
+    .visually-hidden-focusable:not(:focus):not(:focus-within) { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0,0,0,0) !important; white-space: nowrap !important; border: 0 !important; }
+    body { 
+      background-color: #ffffff; 
+      padding-top: 2rem; 
+      padding-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container { 
+      max-width: 900px;
+      width: 100%;
+      background-color: transparent; 
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .report-footer {
+      width: 100%;
+      align-self: stretch;
+      background-color: #ffffff;
+      color: #4a5568;
+      text-align: center;
+      padding: 1.25rem 1rem;
+      font-size: 0.8rem;
+      border-top: 1px solid #e0e0e0;
+      margin-top: auto;
+    }
+    .report-footer p { margin: 0.2rem 0; }
+    h1 { font-size: 1.8rem; margin-bottom: 1.5rem; }
+    em {font-size: 1.3rem;}
+    .status-ok { color: #ffffff; background-color: #0E8A16; padding: 0.25rem 0.5rem; border-radius: 50px; font-weight: 500; display: inline-block; }
+    .status-nok { color: #ffffff; background-color: #B60205; padding: 0.25rem 0.5rem; border-radius: 50px; font-weight: 500; display: inline-block; }
+    .status-melhoria { color: #856404; background-color: #fff3cd; padding: 0.25rem 0.5rem; border-radius: 50px; font-weight: 500; display: inline-block; }
+    .status-na { color: #000; background-color: #C2E0C6; padding: 0.25rem 0.5rem; border-radius: 50px; font-weight: 500; display: inline-block; }
+    .requirement-title { margin-top: 2rem; }
+    .requirement-title h4, .requirement-title h3 { color: #000; }
+    .mb-4 ul li a { color: #1e3a8a; text-decoration: none; }
+    .mb-4 ul li a:hover { color: #1e40af; text-decoration: underline; }
+    summary.index-summary { display: list-item; font-weight: 700; font-size: 1.25rem !important; color: #000; cursor: pointer; }
+    summary.index-summary:focus { outline: 3px solid #333399; outline-offset: 2px; }
+    .evidence-list { list-style-type: disc; padding-left: 1.5rem; margin: 1rem 0; }
+    .evidence-item { margin: 0.5rem 0; padding: 1.5rem; border-radius: 4px; background-color: #f6f6f6; color: #000; list-style: none; margin-left: -1.5rem; border-style: solid; border-width: 0.1rem 0.1rem 0.2rem 0.1rem; border-color: #949494; }
+    .evidence-labels { font-size: 0.85em; display: inline-flex; flex-wrap: wrap; gap: 0.25rem; }
+    .label-tag { padding: 0.125rem 0.375rem; border-radius: 1rem; font-size: 0.75rem; font-weight: 500; color: white; display: inline-block; margin-right: 0.25rem; }
+    .label-checklist { background-color: #5319E7; }
+    .label-auto { background-color: #5319E7; }
+    .label-declaracao { background-color: #5319E7; }
+    .label-outras { background-color: #5319E7; }
+    .label-melhoria { background-color: #FBCA04; color: #000; }
+    .label-na { background-color: #C2E0C6; color: #000; }
+    .label-ok { background-color: #0E8A16; }
+    .label-nok { background-color: #B60205; }
+    .label-requisito { background-color: #0052CC; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .report-section { border-bottom: 3px solid #000000; padding-bottom: 2rem; margin-bottom: 2rem; }
+    .report-section:last-of-type { border-bottom: none; }
+    .checklist-section { border-bottom: 3px solid #000000; padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+    .avaliacao-manual-section { padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+    .checklist-section:last-of-type { border-bottom: none; }
+    .issue-link { color: #1e3a8a; text-decoration: none; }
+    .issue-link:hover { text-decoration: underline; color: #1e40af; }
+    table.table caption { caption-side: top; text-align: left; padding-bottom: 0.5rem; font-weight: 600; color: #000; }
+  </style>
+</head>
+<body>
+  <a href="#conteudo-principal" class="skip-link visually-hidden-focusable">Saltar para o conteúdo principal</a>
+  <div class="container mt-4" id="conteudo-principal">
+    <header class="mb-4">
+        <h1>Relatório Avaliação de Candidatura<br><em>Relatório de auditoria</em></h1>
+    </header>
+
+    <section class="mb-4">
+      <ul>
+        <li>Avaliação feita por: ARTE. I.P. - Núcleo de Experiência e Usabilidade</li>
+        <li>Data de criação: 22/07/2026</li>
+        <li>Última atualização: 18/08/2026</li>
+        <li>URL: <a href="https://apps.apple.com/pt/app/bem-me-ker/id1288638710" target="_blank" rel="noopener noreferrer">https://apps.apple.com/pt/app/bem-me-ker/id1288638710</a></li>
+        <li>Propriedade: IPO Porto</li>
+        <li>Candidatura: Ouro</li>
+        <li>Progresso (% de requisitos auditados): 0%</li>
+      </ul>
+    </section>
+
+    <nav class="mb-4 report-section" aria-label="Índice">
+      <details open>
+        <summary class="index-summary">Índice</summary>
+        <ul>
+          <li><a href="#introducao">Introdução</a></li>
+          <li><a href="#declaracao">Declaração de Acessibilidade</a></li>
+          
+          
+          
+          <li><a href="#etiquetas">Significado das etiquetas utilizadas</a></li>
+        </ul>
+      </details>
+    </nav>
+
+    <section id="introducao" class="mb-5 report-section">
+      <h2>Introdução</h2>
+      <p>O website <a href="https://apps.apple.com/pt/app/bem-me-ker/id1288638710" target="_blank">https://apps.apple.com/pt/app/bem-me-ker/id1288638710</a> <strong><span class="status-ok"><span class="sr-only">etiqueta: </span>passa</span></strong> nos requisitos mínimos do Selo de Usabilidade e Acessibilidade.</p>
+
+      <table class="table table-bordered">
+        <caption>Estado das avaliações efetuadas</caption>
+        <thead><tr><th>Tipo de avaliação</th><th>Estado</th></tr></thead>
+        <tbody>
+          <tr><td>Avaliação Automática</td><td><span class="status-na"><span class="sr-only">etiqueta: </span>N/A</span></td></tr>
+          <tr><td>Avaliação Manual</td><td><span class="status-na"><span class="sr-only">etiqueta: </span>N/A</span></td></tr>
+        </tbody>
+      </table><p>Verificámos também que a Declaração de Acessibilidade não se encontra corretamente afixada. Consulte o capítulo "Declaração de acessibilidade" para saber o que tem de corrigir.</p></section>
+
+    <section id="declaracao" class="mb-5 report-section">
+      <h2>Declaração de Acessibilidade</h2>
+      <p><span class="status-nok"><span class="sr-only">etiqueta: </span>NOK</span></p>
+      <p>De acordo com o <a href="https://www.acessibilidade.gov.pt/blogue/categoria-acessibilidade/dl-n-o-83-2018-acessibilidade-dos-sitios-web-e-das-aplicacoes-moveis/#n8" target="_blank" rel="noopener noreferrer">artigo 8º do DL n.º 83/2018</a>, todos os sítios web e todas as aplicações móveis têm de ostentar uma Declaração de Acessibilidade. A Declaração é o documento na qual a organização evidencia o trabalho levado a efeito para tornar os seus conteúdos e serviços digitais mais acessíveis, disponibilizando ainda contactos para ajuda adicional.</p>
+      <p>Lista de evidências recolhidas:</p>
+      <ul class="evidence-list">
+            <li class="evidence-item">
+              <p><span class="visually-hidden">evidência: </span><a href="https://github.com/a11y-PT/report_177/issues/13" class="issue-link" target="_blank" rel="noopener noreferrer">issue #13</a> <strong>Declaração de acessibilidade - Erro no Ficheiro de Avaliação Automática</strong></p>
+              <div class="evidence-labels"><span class="label-tag label-declaracao"><span class="sr-only">etiqueta: </span>dec a11y</span><span class="label-tag label-nok"><span class="sr-only">etiqueta: </span>NOK</span></div>
+            </li>
+            <li class="evidence-item">
+              <p><span class="visually-hidden">evidência: </span><a href="https://github.com/a11y-PT/report_177/issues/11" class="issue-link" target="_blank" rel="noopener noreferrer">issue #11</a> <strong>Declaração de acessibilidade - Atualizar a informação</strong></p>
+              <div class="evidence-labels"><span class="label-tag label-declaracao"><span class="sr-only">etiqueta: </span>dec a11y</span><span class="label-tag label-nok"><span class="sr-only">etiqueta: </span>NOK</span></div>
+            </li>
+            <li class="evidence-item">
+              <p><span class="visually-hidden">evidência: </span><a href="https://github.com/a11y-PT/report_177/issues/10" class="issue-link" target="_blank" rel="noopener noreferrer">issue #10</a> <strong>Declaração de acessibilidade - Garantir formato machine-readable</strong></p>
+              <div class="evidence-labels"><span class="label-tag label-declaracao"><span class="sr-only">etiqueta: </span>dec a11y</span><span class="label-tag label-nok"><span class="sr-only">etiqueta: </span>NOK</span></div>
+            </li></ul></section>
+
+    <section id="testes-usabilidade" class="mb-5 report-section">
+      <h2>Testes de usabilidade</h2>
+      
+    </section>
+
+    <section id="etiquetas" class="mb-5 report-section">
+      <h2>Significado das etiquetas utilizadas</h2>
+      <ul>
+        <li><span class="label-tag label-ok"><span class="sr-only">etiqueta: </span>OK</span> - status OK</li>
+        <li><span class="label-tag label-ok"><span class="sr-only">etiqueta: </span>corrigido</span> - status OK (corrigido)</li>
+        <li><span class="label-tag label-melhoria"><span class="sr-only">etiqueta: </span>melhoria</span> - status OK, mas pode melhorar</li>
+        <li><span class="label-tag label-nok"><span class="sr-only">etiqueta: </span>NOK</span> - status Not OK</li>
+        <li><span class="label-tag label-na"><span class="sr-only">etiqueta: </span>N/A</span> - status Não Aplicável</li>
+        <li><span class="label-tag label-checklist"><span class="sr-only">etiqueta: </span>chk10 web</span> - checklist 10 Aspetos críticos de acessibilidade funcional</li>
+        <li><span class="label-tag label-checklist"><span class="sr-only">etiqueta: </span>chk conteúdo</span> - checklist Conteúdo</li>
+        <li><span class="label-tag label-checklist"><span class="sr-only">etiqueta: </span>chk transação</span> - checklist Transação</li>
+        <li><span class="label-tag label-outras"><span class="sr-only">etiqueta: </span>outras violações</span> - permite construir o subcapítulo "Outras violações", o qual integra o capítulo "Avaliações manuais"</li>
+        <li><span class="label-tag label-declaracao"><span class="sr-only">etiqueta: </span>dec a11y</span> - permite construir o capítulo "Declaração de acessibilidade e usabilidade"</li>
+        <li><span class="label-tag label-auto"><span class="sr-only">etiqueta: </span>av auto</span> - permite construir o capítulo "Avaliação automática"</li>
+        <li><span class="label-tag label-checklist"><span class="sr-only">etiqueta: </span>testes usabilidade</span> - permite construir o capítulo "Testes de usabilidade"</li>
+      </ul>
+    </section>
+
+  </div>
+  <footer class="report-footer">
+    <p>© 2026 ARTE - Agência para a Reforma Tecnológica do Estado, I.P. Todos os Direitos Reservados.</p>
+    <p><em lang="en">GitReports v1.0</em> - relatório gerado automaticamente a partir dos <em lang="en">issues</em> do GitHub</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -29,7 +29,7 @@ Consulte aqui a última atualização: [Relatório App Bem-Me-Ker iOS](report.ht
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="17082026_report.html">(17/08/2026). Relatório App Bem-Me-Ker iOS</a></li>
+    <li><a href="18082026_report.html">(18/08/2026). Relatório App Bem-Me-Ker iOS</a></li>
   </ul>
 </details>
 

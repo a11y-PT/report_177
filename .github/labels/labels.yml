@@ -13,6 +13,9 @@
 - name: N/A
   color: "c2e0c6"
   description: Requisito Não Aplicável
+- name: corrigido
+  color: "c2e0c6"
+  description: Requisito Corrigido  
 - name: NOK
   color: "b60205"
   description: Requisito Não Conforme
